@@ -30,9 +30,7 @@
 		<path id="classpath_jars">
 			<fileset dir="${ws.jars}" includes="*.jar" />
 		</path>
-		<taskdef name="testng" classpath="${testng.classpath}"
-    	           classname="org.testng.TestNGAntTask" />
-
+		<taskdef name="testng" classpath="${testng.classpath}" classname="org.testng.TestNGAntTask" />
 	</target>
 
 	<!-- all -->
