@@ -6,7 +6,7 @@
 	<property environment="env" />
 
 	<property name="ws.home" value="${basedir}" />
-	<property name="ws.jars" value="c:\jar" />
+	<property name="ws.jars" value="D:\jar" />
 	<property name="test.dest" value="${ws.home}/build" />
 	<property name="test.src" value="${ws.home}/src" />
 	<property name="ng.result" value="${ws.home}/test-output" />
@@ -27,10 +27,9 @@
 			else="${env.ANT_HOME}/bin/ant">
 			<os family="windows" />
 		</condition>
-		<path id="classpath_jars">
-			<fileset dir="${ws.jars}" includes="*.jar" />
-		</path>
-		<taskdef name="testng" classpath="${test.classpath}" classname="org.testng.TestNGAntTask" />
+		<taskdef name="testng" classpath="${test.classpath}"
+			classname="org.testng.TestNGAntTask" />
+
 	</target>
 
 	<!-- all -->
