@@ -6,7 +6,7 @@
 	<property environment="env" />
 
 	<property name="ws.home" value="${basedir}" />
-	<property name="ws.jars" value="C:/jar" />
+	<property name="ws.jars" value="C:/jar/selenium-2.47.1/libs" />
 	<property name="test.dest" value="${ws.home}/build" />
 	<property name="test.src" value="${ws.home}/src" />
 	<property name="ng.result" value="${ws.home}/test-output" />
