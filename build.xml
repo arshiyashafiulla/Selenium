@@ -27,7 +27,7 @@
 			else="${env.ANT_HOME}/bin/ant">
 			<os family="windows" />
 		</condition>
-		<taskdef name="testng" classpath="C:/jar/selenium-2.47.1/libs/org.testng_7.0.0.r201908191551"
+		<taskdef name="testng" classpath="${test.classpath}"
 			classname="org.testng.TestNGAntTask" />
 
 	</target>
