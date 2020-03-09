@@ -6,7 +6,7 @@
 	<property environment="env" />
 
 	<property name="ws.home" value="${basedir}" />
-	<property name="ws.jars" value="/home/ubuntu/sel/selenium-4.0.0-alpha-4/libs" />
+	<property name="ws.jars" value="/home/ubuntu/m/libs" />
 	<property name="test.dest" value="${ws.home}/build/myPackage" />
 	<property name="test.src" value="${ws.home}/src/myPackage" />
 	<property name="ng.result" value="${ws.home}/test-output" />
